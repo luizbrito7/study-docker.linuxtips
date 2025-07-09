@@ -1,3 +1,5 @@
+#!/bin/bash
+
 curl -fsSL https://get.docker.com -o install-docker.sh
 
 chdmod +x install-docker.sh
