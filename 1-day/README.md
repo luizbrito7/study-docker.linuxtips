@@ -7,7 +7,7 @@
 - [ ] Mão na massa com `unshare` trabalhando com namespaces
 - [ ] Controle de recursos com `cgroups` no linux
 - [ ] O que é o `chroot`
-- [ ] LXC e a importancia do kernel linux na história dos containers
+- [ ] LXC e a importância do kernel Linux na história dos containers
 - [ ] O que é o docker
 - [ ] Instalação do docker
 - [ ] Gerenciando ciclo de vida dos containers com docker
