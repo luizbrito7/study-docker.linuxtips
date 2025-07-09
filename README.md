@@ -19,8 +19,10 @@
     ⠀⠀⠀⠀⠈⠙⠛⠛⠿⠿⠿⠿⠿⠛⠛⠛⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  <br>
 </p>
 
+---
 
-
+<br>
+<br>
 
 Anotações e conceitos aprendidos no curso Descomplicando Docker da LinuxTips 
 
