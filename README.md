@@ -23,12 +23,13 @@
 <br>
 
 
-Anotações e conceitos aprendidos no curso Descomplicando Docker da LinuxTips 
+> [!NOTE]
+> Anotações e conceitos aprendidos no curso Descomplicando Docker da LinuxTips 
 
-A estrutura do curso é em dias e para organização desse repositório cada dia vai ter sua pasta com sua respectiva pasta/branch e `README.md` com os conceitos aprendidos
+A estrutura do curso é em dias e para organização desse repositório cada dia vai ter sua pasta com sua respectiva pasta/branch e `README.md` com os conceitos aprendidos.
 
 
-### Entendendo Funcionamento de Containers (Fábio Akita)
+## Entendendo Funcionamento de Containers (Fábio Akita)
 
 - [x] CAP 01 - Limitando processos - cgroups
 - [x] CAP 02 - Enganando processos - namespaces
