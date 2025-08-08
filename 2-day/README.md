@@ -32,8 +32,6 @@ Diferença entre `RUN`, `CMD` e `ENTRYPOINT`
 - [x] healhcheck
 - [x] executar o ngnix  
 
-### 4. Multi-stage build
-
 ### 4. Multi-stage 
 
 É uma forma de minificar o container no "final do dia", seu objetivo é utilizar duas imagens durante o processo de build da imagem, cada uma com uma responsabilidade:
@@ -47,7 +45,7 @@ WORKDIR app
 
 COPY package.json ./ 
 
-RUN node install 
+RUN npm install 
 
 COPY . . 
 
@@ -56,7 +54,7 @@ RUN npm run build
 FROM alpine:3.22.1 AS runner
 
 COPY --from=builder node_modules ./ 
-COPY --from=builder package_json ./ 
+COPY --from=builder package.json ./ 
 COPY --from=builder dist ./ 
 
 ENTRYPOINT ["node"]
