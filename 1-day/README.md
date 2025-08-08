@@ -12,20 +12,6 @@
 - [ ] Instalação do docker
 - [ ] Gerenciando ciclo de vida dos containers com docker
 
-### Entendendo Funcionamento de Containers (Fábio Akita)
-
-- [ ] CAP 01 - Limitando processos - cgroups
-- [ ] CAP 02 - Enganando processos - namespaces
-- [ ] CAP 03 - Recapitulando containers - LXC, Docker e OCI
-- [ ] CAP 04 - A base para containers - RunC
-- [ ] CAP 05 - Hello World Docker - O que tem dentro?
-- [ ] CAP 06 - Restringindo Processos Ainda Mais - Capabilities
-- [ ] CAP 07 - Orquestrando Containers - Docker Compose
-- [ ] CAP 08 - Bônus do Episódio "Tornando sua App Web mais Rápida" - Load Balancer com Docker
-- [ ] CAP 09 - Orquestra de Gente Grande - K8S e Terraform
-- [ ] CAP 10 - Outros Usos de Containers - Apps em Containers?
-
-
 
 - Script para instalação do docker
 
