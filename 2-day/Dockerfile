@@ -7,10 +7,10 @@ WORKDIR /var/www/html
 COPY index.html .
 
 RUN apt update && \
-    apt install -y nginx && \
-    rm -rf /var/list/apt/lists/*
+    apt install -y nginx curl && \
+    rm -rf /var/lib/apt/lists/*
 
-HEALTHCHECK --interval=1s CMD [ "curl teste" ]
+HEALTHCHECK --interval=1s CMD [ "curl", "-f", "http://localhost" ]
 
 ENTRYPOINT [ "nginx" ]
 
